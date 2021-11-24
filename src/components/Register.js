@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link, useHistory } from "react-router-dom";
 import '../styles/register.css'
 
 const Register = () => {
@@ -11,6 +12,7 @@ const Register = () => {
   const HandleChange = (e) => {
     setUser({ ...user, [e.target.name]: e.target.value });
   };
+  const history = useHistory();
   const onSubmitRegister = (e) => {
     e.preventDefault();
     fetch("http://localhost:3002/users", {
@@ -27,6 +29,7 @@ const Register = () => {
       .then((resp) => {
         if (resp.status === 201) {
           alert("Account Created");
+          history.push('/table')
           return resp.json();
         } else alert("There was a mistake");
       })
