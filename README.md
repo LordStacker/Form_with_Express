@@ -1,3 +1,45 @@
+## Scripts disponibles
+
+/////////////////////////////////////////##### ESPAÑOL #####//////////////////////////
+
+En el directorio del proyecto, puede ejecutar:
+
+### `npm install`
+Para instalar las dependencias necesarias para correr el proyecto incluyendo el bootstrap y el router-dom
+
+
+### `npm start`
+
+Ejecuta la aplicación en el modo de desarrollo. \
+Abra [http: // localhost: 3000] (http: // localhost: 3000) para verlo en el navegador.
+
+La página se recargará si realiza modificaciones. \
+También verá errores de pelusa en la consola.
+
+### `Componentes`
+
+`Navbar`
+
+`Barra de navegacion para recorrer tanto el ingreso de datos como la tabla de personas existentes`
+
+`Layout`
+
+`Para la buena composicion de la pagina y estructurar los paths`
+
+### `Vistas`
+
+`Registro`
+
+`La vista de registro es un form con submit para hacer la consulta fetch metodo POST y asi enviar la informacion a guardar`
+
+`Tabla usuarios`
+
+`Es una tabla responsiva el cual trae todos los datos por useEffect para mantener los datos activos en la pagina de todos los usuarios existentes`
+ 
+
+
+//////////////////////////////////////////##### ENGLISH #####//////////////////////////////
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -5,6 +47,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+To install the necessary dependencies to run the project including the bootstrap and the router-dom
+
 
 ### `npm start`
 
@@ -14,57 +60,23 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+### `Components`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`Navbar`
 
-### `npm run build`
+`Navigation bar to go through both the data entry and the table of existing people`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`Layout`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`For the good composition of the page and structure the paths`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `Views`
 
-### `npm run eject`
+`Register`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+`The record view is a form with submit to make the query fetch POST method and thus send the information to save`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`Table User`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+`It is a responsive table which brings all the data by useEffect to keep the data active on the page of all existing users`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
