@@ -1,8 +1,8 @@
 import React from "react";
 import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
-import Register from "./Register";
-import TableUsers from "./TableUsers"
-
+import Register from "../views/Register";
+import TableUsers from "../views/TableUsers";
+import Navbar from "./Navbar";
 
 
 const Layout = () => {
@@ -10,6 +10,7 @@ const Layout = () => {
 
   return (
     <Router>
+      <Navbar />
       <Switch>
         <Route exact path="/">
           <Register />
